@@ -1,0 +1,23 @@
+1967-68	Boston Celtics	Los Angeles Lakers	4-2
+1966-67	Philadelphia 76ers	San Francisco Warriors	4-2
+1965-66	Boston Celtics	Los Angeles Lakers	4-3
+1964-65	Boston Celtics	Los Angeles Lakers	4-1
+1963-64	Boston Celtics	San Francisco Warriors	4-1
+1962-63	Boston Celtics	Los Angeles Lakers	4-2
+1961-62	Boston Celtics	Los Angeles Lakers	4-3
+1960-61	Boston Celtics	St. Louis Hawks	4-1
+1959-60	Boston Celtics	St. Louis Hawks	4-3
+1958-59	Boston Celtics	Minneapolis Lakers	4-0
+1957-58	St. Louis Hawks	Boston Celtics	4-2
+1956-57	Boston Celtics	St. Louis Hawks	4-3
+1955-56	Philadelphia Warriors	Fort Wayne Pistons	4-1￼
+1954-55	Syracuse Nationals	Fort Wayne Pistons	4-3
+1953-54	Minneapolis Lakers	Syracuse Nationals	4-3
+1952-53	Minneapolis Lakers	New York Knicks	4-1
+1951-52	Minneapolis Lakers	New York Knicks	4-3
+1950-51	Rochester Royals	New York Knicks	4-3
+1949-50	Minneapolis Lakers	Syracuse Nationals	4-2
+1948-49	Minneapolis Lakers	Washington Capitols	4-2
+1947-48	Baltimore Bullets	Philadelphia Warriors	4-2
+1946-47	Philadelphia Warriors	Chicago Stags	4-1
+￼
