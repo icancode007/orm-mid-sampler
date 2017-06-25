@@ -1,15 +1,23 @@
 var express = require('express');
-var pg = require('pg');
 var router = express.Router();
-var initialize = new pg.Pool({database: 'championhistory'});
-
-
+//this file is a route therefore the function that creates the shortcut for the public directory
+//does not create a shortcut for this routes directory
+// var findAll = require('../public/javascripts/functions.js');
+var seq = require('../public/javascripts/functions.js');
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  initialize.query('SELECT * FROM champions', function(error, championlist){
-    // res.send(championlist.rows)
-    res.render('index',{champs: championlist.rows});
-  })
+  //this is the queries are done without sequelize
+  // initialize.query('SELECT * FROM champions', function(error, championlist){
+  //   // res.send(championlist.rows)
+  //   res.render('index',{champs: championlist.rows});
+  // })
+  //without the object literal i was accesing the method this way
+  // findAll(function(error,championlist){
+  //   res.render('index',{champs: championlist.rows});
+  // });
+    seq.findAll(function(error,championlist){
+      res.render('index',{champs: championlist.rows});
+    })
 });
 
 module.exports = router;

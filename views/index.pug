@@ -1,5 +1,32 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  include partials/_nav
+  .container.navportrait
+    img(src='/images/kb1.jpg',width='1100px',height='300px')
+  .div
+    table.table.table-sm.table-inverse
+      thead
+        tr
+          th #
+          th Year
+          th Wining Team
+          th Losing Team
+          th Series
+          th MVP
+      tbody
+        each champ, index in champs
+          tr
+            th(scope='row')= index
+            td #{champ.title} 
+            td #{champ.winingteam}
+              |
+              img(src='/images/chipicon.jpeg' width='20px' height='20px')  
+            td #{champ.loosingteam}
+            td #{champ.series}
+            td 
+              a(href='/player/'+champ.id)=champ.mvp
+              |
+              img(src='/images/mvptrophy.png' width='20px' height='20px')
+          
+  //- p Welcome to #{title}

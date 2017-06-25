@@ -1,0 +1,31 @@
+body{
+  color:white;
+  background-color: gray;
+  #naver{
+    background-color: 	#282828;
+    margin-bottom: 15px;
+  }
+  #innernav{
+    .nav-item{
+      .nav-link{
+              color:white
+      }
+
+    }
+
+  }
+  .navportrait{
+    margin-bottom: 15px;
+  }
+  .table-inverse{
+    tbody{
+      tr{
+        td{
+          img{
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+}

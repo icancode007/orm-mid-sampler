@@ -1,0 +1,15 @@
+extends layout
+block content
+  include partials/_nav
+  .container.playerInfo
+    ul
+      li FirstName: #{nbap.commonPlayerInfo[0].firstName} 
+      li LastName: #{nbap.commonPlayerInfo[0].lastName}
+      li Height: #{nbap.commonPlayerInfo[0].height}
+      li Season: #{nbap.playerHeadlineStats[0].timeFrame}
+      ul
+        li pts: #{nbap.playerHeadlineStats[0].pts}
+        li Ast: #{nbap.playerHeadlineStats[0].ast}
+        li Reb: #{nbap.playerHeadlineStats[0].reb}
+        li Pie: #{nbap.playerHeadlineStats[0].pie}
+    
